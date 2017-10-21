@@ -7,16 +7,16 @@ let author = String.fromCharCode(0x00A9),
 	hello = [1055, 1088, 1080, 1074, 1077, 1090, 451],
 	str = '';
 
-console.log(author, equal, author2);
-console.log(right);
-console.log(`${fraction} литра`);
+console.log(author, equal, author2); // © = ©
+console.log(right); // Все права защищенны © 2017 год
+console.log(`${fraction} литра`); // ½ литра
 
 let strArray = hello.map(str => {
 	return String.fromCharCode(str);
 });
 
 str = strArray.join('');
-console.log(str);
+console.log(str); // Приветǃ
 
 let ru = {
 		start: 1040,
@@ -29,7 +29,7 @@ for (; ru.start <= ru.end; ru.start++) {
 }
 
 let regexp = new RegExp(`[${ruDict.join('')}]`, 'g');
-console.log(regexp);
+console.log(regexp); /* /[АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя]/g */
 
 if (regexp.test('Павел Усов')) {
 	console.log('Пользователь ввел русские буквы');
