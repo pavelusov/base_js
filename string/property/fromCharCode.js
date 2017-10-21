@@ -1,3 +1,4 @@
+// https://unicode-table.com/ru/
 let author = String.fromCharCode(0x00A9),
 	author2 = String.fromCharCode(169),
 	equal = String.fromCharCode(61),
