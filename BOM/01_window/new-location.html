@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New location</title>
+  <style>
+    p {
+      color: #0000ff;
+      cursor: pointer;
+      border-bottom: 1px solid #0000ff;
+      display: inline-block;
+    }
+    .back {
+      font-size: 2em;
+    }
+    .path {
+      color: #099300;
+    }
+  </style>
+</head>
+<body>
+<h1>New location: <span class="path"></span></h1>
+<p><span class="back">&#9756</span> Назад на прошлую страницу</p>
+<script>
+    var path = document.querySelector(".path");
+    path.innerText = location.pathname;
+    var p = document.querySelector('p');
+
+    p.onclick = function () {
+        history.back();
+    };
+
+</script>
+</body>
+</html>
