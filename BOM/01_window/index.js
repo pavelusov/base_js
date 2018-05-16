@@ -8,7 +8,7 @@ var valueDeleteOperation = delete window.prop;
 if (valueDeleteOperation) {
     console.log("Deleted");
 } else {
-    console.log(" Don't deleted prop", valueDeleteOperation);
+    console.log(" Don't delete prop", valueDeleteOperation);
 }
 
 // 02 Frames
@@ -27,7 +27,6 @@ if (valueDeleteOperation) {
         elementFrameA.style.color = "white";
 
         // хотя многие ресурсы пишут что это невозможно)
+
     }
 })();
-
-
