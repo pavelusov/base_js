@@ -17,4 +17,13 @@ let birthday3 = new Date(birthdayUTC);
 // 23 июля 1983 23:50 +6 по локальному часовому поясу
 let birthday4 = new Date(1983, 6, 23, 23, 50, 0);
 
+let nowHourLocal = now.getHours(); // GTM+5 локальное время
 
+let nowHourUTC = now.getUTCHours(); // GTM0 по гринвичу (локальное время - 5)
+
+now.setHours(6); // return 1527297729963
+// "now" now +6
+
+function test() {
+
+}
