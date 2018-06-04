@@ -1,0 +1,3 @@
+// Оператор распространения ...
+"use strict";
+//# sourceMappingURL=spread-operator.js.map
