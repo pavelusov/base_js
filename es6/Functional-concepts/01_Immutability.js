@@ -11,7 +11,6 @@ const rateColor = (color, rating) => {
 };
 
 const colorRed1 = rateColor(colorRed, 3);
-console.log(colorRed1);
 
 const list = [
     {title: 'red'},
@@ -23,5 +22,3 @@ const addColor = (title, colors) => {
 };
 
 const myList1 = addColor('blue', list);
-
-console.log(myList1);
